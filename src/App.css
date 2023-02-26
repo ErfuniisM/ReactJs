@@ -17,6 +17,25 @@
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
+li {
+  list-style-type: none;
+  color: aliceblue;
+  font-size: large;
+}
+li:hover {
+  color: red;
+}
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10px;
+  background-color: #888;
+  padding: 0;
+  height: 50px;
+  align-items: center;
+  border-radius: 20px;
+}
 
 @keyframes logo-spin {
   from {
