@@ -6,8 +6,10 @@ import "./App.css";
 function App() {
   return (
     <div>
-      <h1>Hello World!</h1>
-      <img src={Lightyear} alt="" />
+      <div>
+        <h1>Hello World!</h1>
+        <img src={Lightyear} alt="" />
+      </div>
     </div>
   );
 }
