@@ -5,7 +5,14 @@ import "./App.css";
 
 function App() {
   return (
-    <div>
+    <div className="menu">
+      <div>
+        <ul>
+          <li>Home</li>
+          <li>Shop</li>
+          <li>About Me</li>
+        </ul>
+      </div>
       <div>
         <h1>Hello World!</h1>
         <img src={Lightyear} alt="" />
